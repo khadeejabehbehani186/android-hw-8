@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#EFBACC">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="273dp"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-light"
+        android:text="TextView"
+        android:textColor="#150101"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignTop="@+id/textView"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Total"
+        android:textColor="#FAF8F8"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignTop="@+id/textView"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="842"
+        android:textColor="#393535"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="200dp"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+</RelativeLayout>
